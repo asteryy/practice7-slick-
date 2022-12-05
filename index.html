@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- slick.css(style.css보다 위에 작성) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <!-- fontawesome.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                        <img src="img/logo.jpg" alt="르세라핌 로고">
+                    </a>
+                </div><!-- //logo -->
+                <nav class="menu_wrap">
+                    <ul>
+                        <li><a href="#">LE SSERAFIM</a></li>
+                        <li><a href="#">MEMBERS</a></li>
+                        <li><a href="#">ALBUMS</a></li>
+                        <li><a href="#">SCHEDULE</a></li>
+                        <li><a href="#">SNS</a></li>
+                        <li><a href="#">FEARNOT</a></li>
+                        <li><a href="#">CRIMSON HEART</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </nav><!-- //menu_wrap -->
+                <div class="search">
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div><!-- //search -->
+            </div><!-- //container -->
+        </header>
+
+        <div class="main_01">
+            <div class="container">
+                <!-- slick.js(HTML markup) -->
+                <div class="slider">
+                        <div class="left_area">
+                            <div class="fim_img">
+                                <img src="img/mem1.jpg" alt="채원">
+                            </div><!-- //fim_img -->
+                            
+                            <div class="fim_tit">
+                                <h2>LE SSERAFIM</h2>
+                                <p>ANTIFRAGILE</p>
+                            </div><!-- //fim_tit -->
+                        </div><!-- //left_area -->                    
+                        <div class="right_area">
+                            <div class="top_name">
+                                <p>CHAE WON</p>
+                                <div class="detail">
+                                    <i class="fas fa-star"></i>
+                                    <span>LEADER, VOCAL</span>
+                                </div>
+                            </div><!-- //top_name -->
+                            <div class="bottom_img">
+                                <div class="bi_01">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="bi_02">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="bi_03">
+                                    <img src="" alt="">
+                                </div>
+                            </div><!-- //bottom_img -->
+                        </div><!-- //right_area -->
+                
+                </div><!-- //slider -->
+
+            </div><!-- //container -->
+        </div><!-- //main_01 -->
+   
+   
+    </div><!-- //wrap -->
+
+
+
+
+
+    
+
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- slick js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <!-- slick.js(Initialize slider) -->
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({});
+        });
+    </script>
+</body>
+</html>
